@@ -1,0 +1,32 @@
+參考資料
+一、台北市youbike查詢網站
+	https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb
+
+二、folium
+	1.小狐狸事務所
+		https://yhhuang1966.blogspot.com/2022/08/python-folium.html
+	2.Gemini(Google AI)
+		https://gemini.google.com
+三、OSMnx
+	1.Day19、20 OSMnx取得OpenStreetMap資料(2019 iT 邦幫忙鐵人賽)
+		https://ithelp.ithome.com.tw/articles/10207749
+	2.Gemini(Google AI)
+		https://gemini.google.com
+	3.python 包介绍：osmnx (CSDN)
+		https://blog.csdn.net/qq_40206371/article/details/120407459
+	4.OSMnx 2.0.4 documentation
+		https://osmnx.readthedocs.io/en/stable/user-reference.html
+
+四、Python Flask
+	1.Gamma Ray 軟體工作室(youtuber)
+		https://www.youtube.com/watch?v=AiUzsr5JZgQ&t=36s
+	2.Gemini(Google AI)
+		https://gemini.google.com
+
+2023 Flask 入門指南
+https://www.maxlist.xyz/2020/05/01/flask-list/
+
+
+https://leafletjs.cn/reference.html#popup-attribution
+
+兩地經緯度相差 0.0001° 距離相差約 10 公尺。

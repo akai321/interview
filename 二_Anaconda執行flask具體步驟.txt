@@ -1,0 +1,27 @@
+具體步驟如下：
+1. 建立Conda 環境:
+打開Anaconda Prompt (或Anaconda PowerShell)。
+輸入 conda create -n myenv python=3.9 flask (將 myenv 替換為你想要的環境名稱，並根據需要調整Python 版本)。
+輸入 conda activate myenv 啟動這個環境。
+2. 安裝Flask:
+在已啟動的環境中，輸入 pip install flask。
+3. 建立Flask 應用程式:
+建立一個Python 檔案(例如 app.py)，並編寫你的Flask 應用程式程式碼。
+4. 執行Flask 應用程式:
+在Anaconda Prompt 中，輸入 python app.py (或 flask run 如果你在 app.py 中使用了Flask 的 run 函數)。
+這樣，你的Flask 伺服器就可以在Anaconda 環境中成功運作了。
+
+
+
+
+解决Flask安装后无法找到FLASK_APP问题
+设置 FLASK_APP 环境变量:
+Windows (CMD)。
+程式碼:
+    set FLASK_APP=your_app_file.py  # 替换为你的应用程序文件名
+Windows (PowerShell)。
+程式碼:
+    $env:FLASK_APP="your_app_file.py" # 替换为你的应用程序文件名
+Linux/macOS (Bash)。
+程式碼:
+    export FLASK_APP=your_app_file.py  # 替换为你的应用程序文件名

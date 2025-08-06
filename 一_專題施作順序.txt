@@ -1,0 +1,39 @@
+1.先整理Youbikejason資料
+	台北市youbike查詢網站
+	https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb
+
+
+
+#安裝folium ==>  pip install folium
+2.顯示指地區域的地圖，找到站點，並在folium上畫出指定的圖形
+3.標記youbike剩餘幾個空位
+
+
+#安裝OSMnx ==>  pip install osmnx
+進階
+4.使用OSMnx套件 載入台北市道路節點經緯度座標資訊
+
+https://ithelp.ithome.com.tw/articles/10207981 OSMnx應用 教學 19天和20天
+5.利用內建程式(最短路徑算法)算節點找出找出最短路徑
+5_1.進階問題:自己寫一個可以以計算最短前三個路徑的程式碼。
+6.最後用紅線標示在folium的地圖上
+
+
+7.動態點擊地圖會有圖標，以及利用javascript做一個table讓圖標上的座標存到裡面，到時候可以提交給Flask
+
+8.動態更動HTML
+需使用Flask或Django建立一個網頁伺服器，以回傳API的方式，來傳送座標值，藉此畫圖並更新想要的地圖畫面
+8-1.到cmd pip install flask
+
+http://127.0.0.1:5000
+
+
+
+
+
+PyScript 可以在HTML上寫Python的HTML語法
+https://jumping-code.com/2022/06/02/pyscript-python-in-html/
+
+
+
+寫入youbike站點資料，將之加入到script.js的檔案內
